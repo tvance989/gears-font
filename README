@@ -1,1 +1,10 @@
-Feel free to use this on your site, but I'd appreciate an attribution.
+A script to draw text input in a gear font. They even rotate!
+
+Gears may only be drawn by stroking:
+  • an arc in one of the 4 quadrants
+  • a line starting at the midpoint and meeting the gear radius vertically, horizontally, or diagonally
+
+Not every character is supported, and some are identical (e.g. K and k). Here's every supported character (hint: try pasting this into the input):
+  AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 /\|<>()-_$%^?
+
+Feel free to use this on your site, but I would appreciate credit and a link to my github repository.
