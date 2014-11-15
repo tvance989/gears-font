@@ -1,0 +1,13 @@
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src='gearMapper.js'></script>
+<!-- <script src='gearMapperAll.js'></script> -->
+<script src='gears.js'></script>
+</head>
+
+<input type='text' id='text_input' onkeypress='if(event.keyCode==13){ handleInput(this.value); }' style='font-size:23px'>
+<br>
+<input type='button' value='Start' onclick='startGears()'>
+<input type='button' value='Stop' onclick='stopGears()'>
+<br><br>
+<div id='gears'></div>
