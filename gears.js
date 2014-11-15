@@ -56,15 +56,15 @@ function gearBuilder(id, instructions) {
     var ctx = c.getContext("2d");
     ctx.lineWidth = lineWidth;
 
-    drawOutline(ctx);
     drawTeeth(ctx);
+    drawOutline(ctx);
     drawArc(ctx, instructions.arc);
     drawCardinal(ctx, instructions.cardinal);
     drawOrdinal(ctx, instructions.ordinal);
 }
 
 function drawOutline(ctx) {
-    ctx.strokeStyle='#eee';
+    ctx.strokeStyle='#ddd';
     ctx.beginPath();
     // context.arc(x,y,r,sAngle,eAngle,counterclockwise);
     ctx.arc(canvasMidpoint, canvasMidpoint, gearRadius, 0, 2*Math.PI);
@@ -73,7 +73,7 @@ function drawOutline(ctx) {
 }
 
 function drawTeeth(ctx) {
-    ctx.strokeStyle='#eee';
+    ctx.strokeStyle='#ddd';
     ctx.beginPath();
     for(var i in teethPoints){
         ctx.moveTo(teethPoints[i].x, teethPoints[i].y);
@@ -118,7 +118,7 @@ var interval;
 function startGears() {
     clearInterval(interval);
     interval = setInterval(function(){
-        rotation += 5;
+        rotation += 3;
         $('.gear_canvas:odd').rotate(-rotation);
         $('.gear_canvas:even').rotate(rotation);
     }, 50);

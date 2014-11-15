@@ -1,4 +1,6 @@
-// AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz/
+/*
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 /\|<>()-_$%^?
+*/
 
 var gearMapper = {
     A: {arc:'1000', cardinal:'1001'},
@@ -53,6 +55,28 @@ var gearMapper = {
     y: {arc:'0001', ordinal:'0010'},
     Z: {arc:'0110', cardinal:'0101'},
     z: {arc:'0110', cardinal:'0101'},
+    0: {arc:'1111'},
+    1: {cardinal:'1010'},
+    2: {arc:'1001', cardinal:'1010'},
+    3: {arc:'0101', cardinal:'0100'},
+    4: {arc:'1000', cardinal:'1011'},
+    5: {arc:'0110', cardinal:'1010'},
+    6: {arc:'1010', cardinal:'0011'},
+    7: {arc:'1000', cardinal:'1010'},
+    8: {arc:'1111', cardinal:'0101'},
+    9: {arc:'1101', cardinal:'0101'},
     ' ': {},
-    '/': {ordinal:'0101'}
+    '/': {ordinal:'0101'},
+    '\\': {ordinal:'1010'},
+    '|': {cardinal:'1010'},
+    '<': {ordinal:'0110'},
+    '>': {ordinal:'1001'},
+    '(': {arc:'1010'},
+    ')': {arc:'0101'},
+    '-': {cardinal:'0101'},
+    '_': {cardinal:'0101'},
+    '$': {arc:'1001', cardinal:'0101', ordinal:'1010'},
+    '%': {arc:'1001', ordinal:'0101'},
+    '^': {ordinal:'0011'},
+    '?': {arc:'1100', cardinal:'0110'},
 };
