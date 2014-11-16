@@ -1,13 +1,16 @@
 Script to draw text input in a gear font. They even rotate like gears! :D
 
+RULES
 Gears may only be drawn by stroking:
   • an arc over one of the 4 quadrants
   • a line starting at the center and meeting the radius at 45*n degrees
 
-Not every character is supported, and some are identical (e.g. K and k). Here's every supported character (hint: try pasting this into the input):
+Not every character is supported, and some are identical (e.g. O and o). Here's every supported character (hint: try pasting this into the input):
 AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789 /\|<>()-_$%^?
+
+ACKNOWLEDGEMENTS
+  • Gear teeth: Loktar's answer to http://stackoverflow.com/questions/6295564/html-canvas-dotted-stroke-around-circle.
+  • Rotation animation: screenmutt's answer to http://stackoverflow.com/questions/3020904/how-to-rotate-a-div-using-jquery
 
 Feel free to use this on your site, but I would appreciate credit and a link to my github repo.
 https://github.com/tvance989/gears-font
-
-Credit for the gear teeth goes to Loktar's answer to http://stackoverflow.com/questions/6295564/html-canvas-dotted-stroke-around-circle.
